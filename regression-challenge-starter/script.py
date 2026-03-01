@@ -100,5 +100,5 @@ fig.tight_layout()
 plt.show()
 
 # note these variable names may differ from yours
-predicted_values = my_model.predict(x_test) 
+predicted_values = my_model.predict(X_test) 
 print(r2_score(y_test, predicted_values)) 
